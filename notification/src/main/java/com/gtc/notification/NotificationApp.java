@@ -1,13 +1,13 @@
-package com.gtc.config;
+package com.gtc.notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigApplication {
+public class NotificationApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigApplication.class, args);
+		SpringApplication.run(NotificationApp.class, args);
 	}
 
 }

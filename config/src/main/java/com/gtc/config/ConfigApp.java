@@ -1,13 +1,13 @@
-package com.gtc.chat;
+package com.gtc.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChatApplication {
+public class ConfigApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChatApplication.class, args);
+		SpringApplication.run(ConfigApp.class, args);
 	}
 
 }
