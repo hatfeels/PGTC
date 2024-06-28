@@ -1,10 +1,10 @@
-package com.gtc.chat;
+package com.gtc.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChatApplicationTests {
+class UserAppTests {
 
 	@Test
 	void contextLoads() {

@@ -1,10 +1,10 @@
-package com.gtc.task;
+package com.gtc.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskApplicationTests {
+class ConfigAppTests {
 
 	@Test
 	void contextLoads() {
