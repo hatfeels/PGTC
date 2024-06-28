@@ -1,10 +1,10 @@
-package com.gtc.config;
+package com.gtc.notification;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigApplicationTests {
+class NotificationAppTests {
 
 	@Test
 	void contextLoads() {
