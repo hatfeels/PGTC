@@ -5,26 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba481bde-a892-4e79-b06b-6a24b6ba9f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/persistence/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/UserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/entities/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/controler/UserControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gtc/chat/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gtc/chat/ChatApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/test/java/com/gtc/chat/ChatApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/test/java/com/gtc/chat/ChatAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/gtc/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/java/com/gtc/config/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/test/java/com/gtc/config/ConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/com/gtc/config/ConfigAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/gtc/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/gtc/eureka/EurekaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/test/java/com/gtc/eureka/EurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/test/java/com/gtc/eureka/EurekaAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gtc/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gtc/gateway/GatewayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/com/gtc/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/test/java/com/gtc/gateway/GatewayAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/gtc/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/gtc/notification/NotificationApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/test/java/com/gtc/notification/NotificationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/com/gtc/notification/NotificationAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/TaskApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/test/java/com/gtc/task/TaskApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/test/java/com/gtc/task/TaskAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/UserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/gtc/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/gtc/user/UserAppTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/com/gtc/eureka/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/persistence/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/persistence/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,28 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.GTC [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ms-user&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.EurekaApp.executor": "Run",
+    "Application.EurekaApplication.executor": "Run",
+    "Application.UserApp.executor": "Run",
+    "Maven.GTC [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ms-user",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserApp">
     <configuration name="EurekaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gtc.eureka.EurekaApp" />
       <module name="eureka" />
@@ -91,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gtc.user.UserApp" />
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gtc.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApp" />
         <item itemvalue="Application.EurekaApp" />
       </list>
     </recent_temporary>
