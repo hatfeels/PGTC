@@ -1,4 +1,4 @@
-package com.gtc.entities;
+package com.gtc.user.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 @Entity
 @Builder
-@Table(name = "user")
+@Table(name = "users")
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
@@ -38,7 +38,11 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "task_id")
-    private List<Long> taskList;
+//    // tabla intermedia de tareas creadas
+//    @Column(name = "task_id")
+//    private List<Long> taskList;
+//
+//    // tabla intermedia de tareas en las que participo
+//    private List<Long> taskOwn;
 
 }
