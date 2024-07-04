@@ -1,4 +1,4 @@
-### Plataforma de Gestión de Tareas Colaborativas
+### Plataforma de Gestión de Tareas Colaborativas(provicional)
 
 ## Descripción del Proyecto
 
@@ -12,6 +12,7 @@ Este proyecto consiste en desarrollar una plataforma de gestión de tareas colab
 - **API Gateway**: Spring Cloud Gateway
 - **Service Discovery**: Netflix Eureka
 - **Configuración Centralizada**: Spring Cloud Config
+- **Roles y Autenticación**: Spring Security
 
 ## Estructura de Microservicios
 
@@ -31,7 +32,6 @@ Este proyecto consiste en desarrollar una plataforma de gestión de tareas colab
 - **Spring Cloud Config**
 - **RabbitMQ / Kafka**
 - **PostgreSQL**
-- **MongoDB**
 - **Docker**
 - **Kubernetes**
 - **Prometheus**

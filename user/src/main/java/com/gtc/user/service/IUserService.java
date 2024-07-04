@@ -15,7 +15,9 @@ public interface IUserService {
     // crea un usuario
     void save(User user);
 
-    // vusca el dueño de una tarea
+//    void update(Long id, User user);
+
+    // busca el dueño de una tarea
     List<User> findByIdTask(Long idTask);
 
 }
