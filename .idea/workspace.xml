@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba481bde-a892-4e79-b06b-6a24b6ba9f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/controler/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/entities/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/controler/TaskControler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/entities/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/entities/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/persistence/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/persistence/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/service/ITaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/service/ITaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/java/com/gtc/task/service/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/UserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/UserApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/controler/UserControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/controler/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/persistence/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/persistence/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/gtc/user/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ba481bde-a892-4e79-b06b-6a24b6ba9f2e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
