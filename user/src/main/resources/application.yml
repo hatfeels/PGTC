@@ -9,9 +9,13 @@ spring:
     url: jdbc:postgresql://localhost:5432/pgtc_users
     username: postgres
     password: 961149
+#  security:
+#    user:
+#      name: ayrton
+#      password: 1234
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
     database: postgresql
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect

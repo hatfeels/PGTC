@@ -12,4 +12,5 @@ public class UserApp {
         SpringApplication.run(UserApp.class, args);
     }
 
+
 }

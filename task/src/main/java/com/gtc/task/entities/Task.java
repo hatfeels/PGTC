@@ -36,4 +36,8 @@ public class Task {
 
     @Column(name = "state")
     private String state;
+
+    @Column(name = "is_public")
+    private boolean isPublic = false;
+
 }
