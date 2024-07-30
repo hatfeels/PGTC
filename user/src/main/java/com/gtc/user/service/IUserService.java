@@ -1,23 +1,27 @@
 package com.gtc.user.service;
 
-import com.gtc.user.entities.User;
+
+import com.gtc.user.entities.UserEntity;
 
 import java.util.List;
 
 public interface IUserService {
 
     // todos los usuarios
-    List<User> findAll();
+    List<UserEntity> findAll();
 
     // busca usuario por ID
-    User findById(Long id);
+    UserEntity findById(Long id);
 
-    // crea un usuario
-    void save(User user);
+    // crea/modificar un usuario
+    void save(UserEntity user);
 
-//    void update(Long id, User user);
+    // borra un usuario
+    void delete(Long id);
 
     // busca el dueño de una tarea
-    List<User> findByIdTask(Long idTask);
+    List<UserEntity> findByIdTask(Long idTask);
 
+    // busca los editores de una tarea
+    List<UserEntity> findEditorsByIdTask(Long idTask);
 }

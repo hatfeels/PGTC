@@ -12,6 +12,14 @@ public interface ITaskService {
 
     void save(Task task);
 
+    void delete(Long id);
+
+    List<Task> findAllEditableTask(Long idUser);
+
+    List<Task> findAllOwnTasks(Long idUser);
+
+    List<Task> findAllPublicTask();
+
 //    void update(Long idTask, Task task);
 
 }

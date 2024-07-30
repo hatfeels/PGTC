@@ -27,4 +27,25 @@ public class TaskServiceImpl implements ITaskService{
     public void save(Task task) {
         taskRepository.save(task);
     }
+
+    @Override
+    public void delete(Long id) {
+        taskRepository.deleteById(id);
+    }
+
+    @Override
+    public List<Task> findAllEditableTask(Long idUser) {
+
+        return taskRepository.findAllEditableTask(idUser);
+    }
+
+    @Override
+    public List<Task> findAllOwnTasks(Long idUser) {
+        return taskRepository.findAllOwnTasks(idUser);
+    }
+
+    @Override
+    public List<Task> findAllPublicTask() {
+        return taskRepository.findAllPublicTask();
+    }
 }
