@@ -8,6 +8,8 @@ public interface ITaskService {
 
     List<Task> findAll();
 
+    List<Long> findAllIdTaskByIdUser(Long idUser);
+
     Task findById(Long id);
 
     void save(Task task);
@@ -20,6 +22,7 @@ public interface ITaskService {
 
     List<Task> findAllPublicTask();
 
-//    void update(Long idTask, Task task);
+    void addEditorToTask(Long idTask, Long idEditor);
+
 
 }

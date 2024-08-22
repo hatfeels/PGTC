@@ -20,16 +20,18 @@ public class TaskController {
     @Autowired
     private ITaskService taskService;
 
-    //Crea una tarea. Modificar para q actualize al usuario. publico. consumir desde ms-users
+
+    //Crea una tarea. Modificar para q actualize al usuario. publico. consumir desde ms-users DONE
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
-    public void createTask(@RequestBody Task task){
+    public void createTask(@RequestBody Task task) {
+
         taskService.save(task);
     }
 
     // solo accesible para el administrador
     @GetMapping("/all")
-    public ResponseEntity<?> getAllTask(){
+    public ResponseEntity<?> getAllTask() {
         return ResponseEntity.ok(taskService.findAll());
     }
 
@@ -41,7 +43,7 @@ public class TaskController {
 
     //accesible con credenciales
     @GetMapping("/search/{idTask}")
-    public ResponseEntity<?> getById(@PathVariable Long idTask){
+    public ResponseEntity<?> getById(@PathVariable Long idTask) {
         return ResponseEntity.ok(taskService.findById(idTask));
     }
 
@@ -56,15 +58,20 @@ public class TaskController {
         }
     }
 
-    //Busca todos los editores de una tarea. consumir desde ms-users
+    //Busca todas las tareas de un editor. consumir desde ms-users DONE
     @GetMapping("/get/editable/{idUser}")
-    public ResponseEntity<?> getAllEditableTask(@PathVariable Long idUser){
+    public ResponseEntity<?> getAllEditableTask(@PathVariable Long idUser) {
         return ResponseEntity.ok(taskService.findAllEditableTask(idUser));
     }
 
-    //Busca al creador de una tarea (en un array). consumir desde ms-users
+    //Busca las tareas que creo un usuario (en un array). consumir desde ms-users DONE
     @GetMapping("/get/own/{idUser}")
-    public ResponseEntity<?> getAllOwnTasks(@PathVariable Long idUser){
+    public ResponseEntity<?> getAllOwnTasks(@PathVariable Long idUser) {
         return ResponseEntity.ok(taskService.findAllOwnTasks(idUser));
+    }
+
+    @PutMapping("/update/editor/{idTask}")
+    public void addEditorToTask(@PathVariable Long idTask, @RequestBody Long idEditor) {
+        taskService.addEditorToTask(idTask, idEditor);
     }
 }
