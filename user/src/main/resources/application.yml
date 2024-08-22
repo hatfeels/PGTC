@@ -9,10 +9,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/pgtc_users
     username: postgres
     password: 961149
-#  security:
-#    user:
-#      name: ayrton
-#      password: 1234
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+
   jpa:
     hibernate:
       ddl-auto: create-drop

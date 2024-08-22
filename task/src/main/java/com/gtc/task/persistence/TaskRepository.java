@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface TaskRepository extends CrudRepository<Task, Long> {
 
-
     @Query(value = "SELECT * FROM Task t WHERE :idUser = ANY (t.editors)", nativeQuery = true)
     List<Task> findAllEditableTask(Long idUser);
 
@@ -17,5 +16,8 @@ public interface TaskRepository extends CrudRepository<Task, Long> {
 
     @Query(value = "SELECT * FROM Task t WHERE t.is_public = true", nativeQuery = true)
     List<Task> findAllPublicTask();
+
+    @Query(value = "SELECT id FROM Task t WHERE t.owner_id = :idUser", nativeQuery = true)
+    List<Long> findAllIdTaskByIdUser(Long idUser);
 
 }

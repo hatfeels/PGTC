@@ -1,1 +1,22 @@
-spring.application.name=gateway
+server:
+  port: 8080
+
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: gtc-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: user
+          uri: http://localhost:9010
+          predicates:
+            - Path=/api/user/**
+        - id: task
+          uri: http://localhost:9020
+          predicates:
+            - Path=/api/task/**
